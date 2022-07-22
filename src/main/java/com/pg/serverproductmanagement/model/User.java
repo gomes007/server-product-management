@@ -26,5 +26,8 @@ public class User {
     @Column(name="role")
     private Role role;
 
+    @Transient
+    private String token;
+
 
 }
